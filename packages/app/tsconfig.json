@@ -1,0 +1,15 @@
+{
+  "extends": "@vtp/rig/tsconfig.json",
+  "compilerOptions": {
+    // uncomment this to fix the tada warnings
+    // "moduleResolution": "nodenext",
+    "plugins": [
+      {
+        "name": "@0no-co/graphqlsp",
+        "schema": "./src/schema.graphql",
+        "tadaOutputLocation": "./src/graphql-env.d.ts"
+      }
+    ]
+  },
+  "include": ["src/**/*"]
+} 
