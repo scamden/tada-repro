@@ -13,8 +13,7 @@
   },
       "dependencies": {
       "@vtp/rig": "workspace:*",
-      "@vtp/common": "workspace:*",
-      "gql.tada": "^1.8.8",
+      "gql.tada": "^1.8.13",
       "graphql": "^16.8.1"
     },
   "devDependencies": {
