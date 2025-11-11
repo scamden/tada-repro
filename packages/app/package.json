@@ -11,12 +11,9 @@
     "dev": "tsc --noEmit --watch",
     "tada-gen": "gql-tada generate output && gql-tada turbo && gql-tada check"
   },
-      "dependencies": {
-      "@vtp/rig": "workspace:*",
-      "gql.tada": "^1.8.13",
-      "graphql": "^16.8.1"
-    },
-  "devDependencies": {
-    "@0no-co/graphqlsp": "^1.12.16"
+  "dependencies": {
+    "@vtp/rig": "workspace:*",
+    "gql.tada": "^1.8.13",
+    "graphql": "^16.8.1"
   }
-} 
+}

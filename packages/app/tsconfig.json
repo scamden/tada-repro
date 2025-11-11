@@ -5,7 +5,7 @@
     // "moduleResolution": "nodenext",
     "plugins": [
       {
-        "name": "@0no-co/graphqlsp",
+        "name": "gql.tada/ts-plugin",
         "schema": "./src/schema.graphql",
         "tadaOutputLocation": "./src/graphql-env.d.ts",
       }
